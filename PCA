@@ -1,4 +1,6 @@
 # Multivariate-R-
+# Principal Component Analysis of the Wine Data
+
 
 # Read data from file.
 wine <- read.table("wine.data.txt",sep=",")
@@ -73,7 +75,6 @@ screeplot(wine2.pca, type="lines")
 # According to Kaiser’s criterion, we would retain the fist three principal components (which have variance above 1).
 # The first six principal components should be retained to meet 85% variance level.
 
-# Question 10:
 wine2.pca$rotation[,1]
 # V7(-0.42188), in absolute value, makes the largest contribution to PC1.
 wine2.pca$rotation[,2]
