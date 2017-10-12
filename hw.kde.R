@@ -1,3 +1,5 @@
+### Kernel Density Estimation
+
 ### Question 1:
 ### My Favorite family of distributions are normal distributions.
 
