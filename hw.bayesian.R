@@ -1,4 +1,4 @@
-
+### Bayesian Statistics
 
 JH_ft <- sum(rbinom(15, 1, .82))
 JH_ft 
